@@ -101,18 +101,12 @@
 							backdrop-blur-[18.2px] border border-[rgba(0,110,79,0.3)] px-5 py-4">
 					
 					<div class="flex items-center">
-						<img src="moneystudio.jpg" alt="Логотип MONEYSTUDIO" class="w-10 h-10 mr-3" style="border-radius: 5px;">
-						<span class="text-xl font-semibold">MONEYSTUDIO</span>
+						<img src="scoreworld.jpg" alt="Логотип MONEYSTUDIO" class="w-10 h-10 mr-3" style="border-radius: 5px;">
+						<span class="text-xl font-semibold">ꜱᴄᴏʀᴇᴡᴏʀʟᴅ</span>
 					</div>
 					
 					<!-- Ссылки для ПК-версии -->
 					<ul class="flex items-center border-radius 10px ">
-						<li>
-							<a href="#" class="hover:text-blue-400 transition-colors">Murojat Uchun&nbsp;&nbsp;&nbsp;&nbsp;</a>
-						</li>
-						<li>
-							<a href="login.html" id="authLinks" class="hover:text-blue-400 transition-colors">Kirish</a>
-						</li>
 						<div
                             <button id="logoutButton" class="hover:text-blue-400 transition-colors" onclick="logout()">Chiqish</button>
 						</div>
@@ -121,41 +115,21 @@
 			</header>
 
 			<div class="lg:hidden fixed bottom-0 left-0 right-0 z-50 zetka" id="sticky">
-		<div class="flex justify-between py-2 mx-4 mb-4"
-			 style="background: rgba(255, 255, 255, 0.46);
-					border-radius: 16px;
-					box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-					backdrop-filter: blur(7.3px);
-					-webkit-backdrop-filter: blur(7.3px);">
-			<a href="tg://resolve?domain=ScoreWorldAdmin" class="text-center text-gray-100 font-semibold flex-1" target="_blank">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-				</svg>
-				Muloqat uchun&nbsp;☎
-			</a>
-
-			<a href="https://www.youtube.com/watch?v=McSK3VCIWfw" class="text-center text-gray-100 font-semibold flex-1" target="_blank">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-				</svg>
-				Premium Olish&nbsp;🛒
-			</a>
-		</div>
 	</div>
 
 
 			<div class="container mx-auto px-4">
 				<div class="rounded-[1.5rem] p-6 max-w-[800px] mx-auto">
-					<h2 class="text-2xl font-bold mb-6 text-center">Resurslar</h2>
+					<h2 class="text-2xl font-bold mb-6 text-center">ʙᴏ'ʟɪᴍʟᴀʀ</h2>
 					<div class="flex justify-center gap-4">
 						<a href="index.html" onclick="filterItems('all')" id="filter-all" class="filter-btn bg-blue-600 hover:bg-gray-600 p-4 rounded-lg text-center">
-							ʙᴏꜱʜ ᴍᴇɴʏᴜ
+							ᴅᴏɴᴀᴛʟᴀʀ
 						</a>
-						<a href="plugin.html" onclick="filterItems('plugin')" id="filter-plugin" class="filter-btn bg-blue-600 hover:bg-gray-600 p-4 rounded-lg text-center">
-							ᴘʟᴜɢɪɴ
+						<a href="gems.html" onclick="filterItems('plugin')" id="filter-plugin" class="filter-btn bg-blue-600 hover:bg-gray-600 p-4 rounded-lg text-center">
+							ɢᴇᴍꜱ
 						</a>
-						<a href="minestax.html" onclick="filterItems('plugin')" id="filter-plugin" class="filter-btn bg-blue-600 hover:bg-gray-600 p-4 rounded-lg text-center">
-							ᴍɪɴᴇꜱᴛᴀx
+						<a href="boshqalar.html" onclick="filterItems('plugin')" id="filter-plugin" class="filter-btn bg-blue-600 hover:bg-gray-600 p-4 rounded-lg text-center">
+							ʙᴏꜱʜQᴀʟᴀʀ
 						</a>
 					</div>
 				</div>
@@ -164,116 +138,47 @@
 				<div id="content" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
 					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
 						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-						data-id="5"
-						data-type="sborka"
-						data-title="ANARXIYA 1.0"
-						data-description="MINESTAX | ANARXIYA BETA VERSION 1.0 , juda ham ko'p funksiya..."
-						data-image="anarxiya.jpg"
-						data-file-url="https://workupload.com/file/YUCGD4pPZ5p"
-					    onclick="window.location.href='minestax-anarxiya.html'">
-						<img src="anarxiya.jpg" alt="MINESTAX | ANARXIYA" class="w-full h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">ANARXIYA 1.0</h3>
+					    onclick="window.location.href='https://t.me/SHoXBoSSYT'">
+						<img src="kastomniy.jpg" alt="BetterEnderChest" class="h-48 object-cover rounded mb-4 mx-auto">
+						<h3 class="text-xl font-bold mb-2 text-center">ᴋᴀꜱᴛᴏᴍɴɪʏ - 199.000ᴜᴢꜱ</h3>
 						<p class="text-gray-400 text-center">
-						MINESTAX | ANARXIYA BETA VERSION 1.0 , juda ham ko'p funksiya...
-						</p>
-					</div>	
-					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='stashfortune.html'">
-						<img src="moneystudio.jpg" alt="Сборка BruhTime v17.0" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">StashFortune 1.17.1</h3>
-						<p class="text-gray-400 text-center">
-						Bu plugin serveringga ajoyib menyuni qoshadi...
+						ᴋᴀꜱᴛᴏᴍɴɪʏ 30ᴋᴜɴ - 99.000ᴜᴢꜱ
 						</p>
 					</div>
 					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
 						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='PushMenu.html'">
-						<img src="moneystudio.jpg" alt="PushMenu" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">PushMenu 1.17.1</h3>
+					    onclick="window.location.href='https://t.me/SHoXBoSSYT'">
+						<img src="imperatot.jpg" alt="CoreProtect" class="h-48 object-cover rounded mb-4 mx-auto">
+						<h3 class="text-xl font-bold mb-2 text-center">ɪᴍᴘᴇʀᴀᴛᴏʀ - 129.000ᴜᴢꜱ</h3>
 						<p class="text-gray-400 text-center">
-						Serveringizga moderatorlar uchun...
+						ɪᴍᴘᴇʀᴀᴛᴏʀ 30ᴋᴜɴ - 60.000ᴜᴢꜱ
 						</p>
 					</div>
 					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
 						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='ExcellentCrates.html'">
-						<img src="ExcellentCrates.jpg" alt="ExcellentCrates" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">ExcellentCrates</h3>
+					    onclick="window.location.href='https://t.me/SHoXBoSSYT'">
+						<img src="dragon.jpg" alt="LuckPerms" class="h-48 object-cover rounded mb-4 mx-auto">
+						<h3 class="text-xl font-bold mb-2 text-center">ᴅʀᴀɢᴏɴ - 100.000ᴜᴢꜱ</h3>
 						<p class="text-gray-400 text-center">
-						Serveringizga keyslar qoshadi...
+						ᴅʀᴀɢᴏɴ 30ᴋᴜɴ - 42.000ᴜᴢꜱ
 						</p>
 					</div>
 					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
 						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='LiteBans.html'">
-						<img src="LiteBans.jpg" alt="LiteBans" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">LiteBans</h3>
+					    onclick="window.location.href='https://t.me/SHoXBoSSYT'">
+						<img src="elder.jpg" alt="PlugManX" class="h-48 object-cover rounded mb-4 mx-auto">
+						<h3 class="text-xl font-bold mb-2 text-center">ᴇʟᴅᴇʀ - 65.000ᴜᴢꜱ</h3>
 						<p class="text-gray-400 text-center">
-						Serveringizda banlarni...
-						</p>	
-					</div>
-					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='LksTnt.html'">
-						<img src="LksTnt.jpg" alt="LksTnt" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">LksTnt</h3>
-						<p class="text-gray-400 text-center">
-						Serveringizga TNTlar qoshadi...
+						ᴇʟᴅᴇʀ 30ᴋᴜɴ - 28.000ᴜᴢꜱ
 						</p>
 					</div>
 					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
 						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='AdvancedEnchantments.html'">
-						<img src="AdvancedEnchantments.jpg" alt="AdvancedEnchantments" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">AdvancedEnchantments</h3>
+					    onclick="window.location.href='https://t.me/SHoXBoSSYT'">
+						<img src="aligator.jpg" alt="WorldEdit" class="h-48 object-cover rounded mb-4 mx-auto">
+						<h3 class="text-xl font-bold mb-2 text-center">ᴀʟɪɢᴀᴛᴏʀ - 32.000ᴜᴢꜱ</h3>
 						<p class="text-gray-400 text-center">
-						Serveringizga ajoyib sehrlar...
-						</p>
-					</div>
-					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='BetterEnderChest.html'">
-						<img src="BetterEnderChest.jpg" alt="BetterEnderChest" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">BetterEnderChest</h3>
-						<p class="text-gray-400 text-center">
-						Serveringizda enderchestlarni...
-						</p>
-					</div>
-					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='CoreProtect.html'">
-						<img src="CoreProtect.jpg" alt="CoreProtect" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">CoreProtect</h3>
-						<p class="text-gray-400 text-center">
-						Serveringni himoya qilishga...
-						</p>
-					</div>
-					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='LuckPerms.html'">
-						<img src="LuckPerms.jpg" alt="LuckPerms" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">LuckPerms</h3>
-						<p class="text-gray-400 text-center">
-						Serveringizga donat...
-						</p>
-					</div>
-					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='PlugManX.html'">
-						<img src="PlugManX.jpg" alt="PlugManX" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">PlugManX</h3>
-						<p class="text-gray-400 text-center">
-						Serveringizdagi pluginlarni...
-						</p>
-					</div>
-					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-						class="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 w-full max-w-[400px] transform transition-all hover:scale-105 duration-300"
-					    onclick="window.location.href='WorldEdit.html'">
-						<img src="WorldEdit.jpg" alt="WorldEdit" class="h-48 object-cover rounded mb-4 mx-auto">
-						<h3 class="text-xl font-bold mb-2 text-center">WorldEdit</h3>
-						<p class="text-gray-400 text-center">
-						Serveringzni boshqarishni yengillashtiradi...
+						ᴀʟɪɢᴀᴛᴏʀ 30ᴋᴜɴ - 13.000ᴜᴢꜱ
 						</p>
 					</div>
 					<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
@@ -297,34 +202,20 @@
 		  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 			<div class="md:flex md:justify-between">
 			  <div class="mb-6 md:mb-0">
-				<a href="tg://resolve?domain=MONEYSTUDIOUZ" target="_blank" class="flex items-center">
-				  <img src="moneystudio.jpg" alt="Логотип MONEYSTUDIO" class="h-8 me-3" style="border-radius: 5px;"/>
-				  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ">MONEYSTUDIO</span>
+				<a href="index.html" target="_blank" class="flex items-center">
+				  <img src="scoreworld.jpg" alt="Логотип MONEYSTUDIO" class="h-8 me-3" style="border-radius: 5px;"/>
+				  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ">ꜱᴄᴏʀᴇᴡᴏʀʟᴅ</span>
 				</a>
 			  </div>
 			  <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
 				<div>
-				  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Web Manzillar</h2>
-				  <ul class="text-gray-500 dark:text-gray-400 font-medium">
-					<li>
-					  <a href="index.html" class="hover:underline">Bosh Sahifa&nbsp;🏚</a>
-					</li>
-					<li >
-					  <a href="tg://resolve?domain=ScoreWorldAdmin" class="hover:underline">Muloqat Uchun&nbsp;☎</a>
-					</li>
-				  </ul>
-				</div>
-				<div>
 				  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Ijtimoiy Tarmoqlar</h2>
 				  <ul class="text-gray-500 dark:text-gray-400 font-medium">
 					<li>
-					  <a href="tg://resolve?domain=MONEYSTUDIOUZ" class="hover:underline">Telegram&nbsp;📲</a>
+					  <a href="tg://resolve?domain=ScoreWorldServer" class="hover:underline">Telegram&nbsp;📲</a>
 					</li>
 					<li>
-					  <a href="https://www.youtube.com/@MONEYSTUDIOUZ" class="hover:underline">YouTube&nbsp;💻</a>
-					</li>
-					<li>
-					  <a href="tg://resolve?domain=ScoreWorldUz" class="hover:underline">ScoreWorld - Server&nbsp;🖥</a>
+					  <a href="https://www.youtube.com/@SHOXMONEY" class="hover:underline">YouTube&nbsp;💻</a>
 					</li>
 				  </ul>
 				</div>
